@@ -1,0 +1,6 @@
+{
+  // Cloudflare 설정: public 폴더의 파일을 그대로 sonyunseong.com에 보여줌
+  "name": "sonyunseong",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./public" }
+}
