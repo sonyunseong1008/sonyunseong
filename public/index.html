@@ -304,8 +304,8 @@ function spinStar() {
 }
 if (!location.hash || location.hash === "#") setTimeout(spinStar, 500);
 
-// 첫 화면에 가만히 두면 3초마다 똑같이 한 바퀴 핑 돎 (만지거나 메뉴가 열려 있으면 쉼)
-const IDLE_SPIN_MS = 3000;
+// 첫 화면에 가만히 두면 2초마다 똑같이 한 바퀴 핑 돎 (만지거나 메뉴가 열려 있으면 쉼)
+const IDLE_SPIN_MS = 2000;
 let idleSpinTimer = 0;
 function scheduleIdleSpin() {
   clearTimeout(idleSpinTimer);
